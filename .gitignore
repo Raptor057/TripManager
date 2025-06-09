@@ -1,0 +1,65 @@
+# ---- General OS Junk / Temp ----
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+*.temp
+~$*
+*.log
+
+# ---- .NET ----
+**/bin/
+**/obj/
+**/*.user
+**/*.suo
+**/*.userosscache
+**/*.sln.docstates
+**/*.vsp
+**/*.pdb
+**/TestResults/
+**/*.vspscc
+**/*.vssscc
+**/.vs/
+**/out/
+**/Debug/
+**/Release/
+**/*.dbmdl
+*.mdf
+*.ldf
+*.ndf
+*.sqlproj.user
+*.bak
+*.backup
+*.pidb
+
+# ---- Rider / VS Code ----
+.idea/
+*.sln.iml
+.vscode/
+
+# ---- Node.js / Next.js ----
+node_modules/
+.npm/
+.next/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+coverage/
+storybook-static/
+test-results/
+playwright-report/
+.env*
+**/.env*
+ 
+# ---- SQL Server Database Project ----
+**/sql/
+
+# ---- Opcional / Personalizados ----
+# Uncomment if you want to ignore publish output
+# **/publish/
+# Uncomment if you want to ignore all coverage outputs
+# **/coverage/
