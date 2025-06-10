@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\GT_Administration_System\GTM.Admin.ActiveDirectory\Common\Common.csproj" />
+    <ProjectReference Include="..\TripManager.Application\TripManager.Application.csproj" />
+    <ProjectReference Include="..\TripManager.Domain\TripManager.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
