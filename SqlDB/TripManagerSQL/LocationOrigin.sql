@@ -1,8 +1,8 @@
 CREATE TABLE LocationOrigin (
-    LocationOriginId INT PRIMARY KEY IDENTITY,
-    Name NVARCHAR(128) NOT NULL,
-    Address NVARCHAR(256) NULL,
-    City NVARCHAR(128) NULL,
-    State NVARCHAR(64) NULL,
-    Country NVARCHAR(64) NULL
+    LocationOriginId INT PRIMARY KEY IDENTITY(1,1),
+    NameOrigin NVARCHAR(128) NOT NULL,
+    AddressOrigin NVARCHAR(256) NULL,
+    CityOrigin NVARCHAR(128) NULL,
+    StateOrigin NVARCHAR(64) NULL,
+    CountryOrigin NVARCHAR(64) NULL
 );

@@ -64,7 +64,6 @@
     <Folder Include="UTCDateTime" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="CargoItem.sql" />
     <Build Include="Configuration\Branches.sql" />
     <Build Include="Configuration\BranchSettings.sql" />
     <Build Include="Configuration\BusinessInfo.sql" />
@@ -72,14 +71,17 @@
     <Build Include="Driver.sql" />
     <Build Include="LocationDestination.sql" />
     <Build Include="LocationOrigin.sql" />
+    <Build Include="Passenger.sql" />
     <Build Include="TripEvent.sql" />
     <Build Include="TripSchedule.sql" />
     <Build Include="Truck.sql" />
     <Build Include="UTCDateTime\GlobalSettings.sql" />
     <Build Include="UTCDateTime\SavedGlobalSettings.sql" />
-    <Build Include="UTCDateTime\TimeZones.sql" />
     <Build Include="UTCDateTime\UfnToLocalTime.sql" />
     <Build Include="UTCDateTime\UfnToUniversalTime.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
   </ItemGroup>
   <Target Name="BeforeBuild">
     <Delete Files="$(BaseIntermediateOutputPath)\project.assets.json" />
