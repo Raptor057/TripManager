@@ -6,7 +6,7 @@ CREATE TABLE [dbo].[Users]
     [PasswordHash] NVARCHAR(256) NOT NULL,
     [FullName] NVARCHAR(200),
     [IsActive] BIT NOT NULL DEFAULT 1,
-    [IsAdmin] BIT NOT NULL DEFAULT 0,
+    [RoleId] INT NOT NULL DEFAULT 2,
     [CreatedAt] DATETIME NOT NULL DEFAULT GETUTCDATE(),
     [UpdatedAt] DATETIME NULL DEFAULT GETUTCDATE()
 );

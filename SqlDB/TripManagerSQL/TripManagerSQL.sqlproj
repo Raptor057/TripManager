@@ -67,12 +67,15 @@
     <Build Include="Configuration\Branches.sql" />
     <Build Include="Configuration\BranchSettings.sql" />
     <Build Include="Configuration\BusinessInfo.sql" />
+    <Build Include="Configuration\Roles.sql" />
     <Build Include="Configuration\Users.sql" />
     <Build Include="Driver.sql" />
     <Build Include="LocationDestination.sql" />
     <Build Include="LocationOrigin.sql" />
     <Build Include="Passenger.sql" />
+    <Build Include="TripCalendarView.sql" />
     <Build Include="TripEvent.sql" />
+    <Build Include="TripExpenses.sql" />
     <Build Include="TripPassengers.sql" />
     <Build Include="TripPayments.sql" />
     <Build Include="TripSchedule.sql" />
