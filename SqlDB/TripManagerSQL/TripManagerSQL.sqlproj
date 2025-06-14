@@ -59,11 +59,16 @@
     <PackageReference Condition="'$(NetCoreBuild)' == 'true'" Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Configuration" />
     <Folder Include="Properties" />
     <Folder Include="UTCDateTime" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="CargoItem.sql" />
+    <Build Include="Configuration\Branches.sql" />
+    <Build Include="Configuration\BranchSettings.sql" />
+    <Build Include="Configuration\BusinessInfo.sql" />
+    <Build Include="Configuration\Users.sql" />
     <Build Include="Driver.sql" />
     <Build Include="LocationDestination.sql" />
     <Build Include="LocationOrigin.sql" />

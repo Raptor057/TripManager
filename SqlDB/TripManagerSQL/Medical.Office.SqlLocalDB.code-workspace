@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Medical.Office.SqlLocalDB",
+			"path": "../../../Medical/Medical.Office.SqlLocalDB/Medical.Office.SqlLocalDB"
+		},
+		{
+			"name": "TripManagerSQL",
+			"path": "."
+		}
+	]
+}
