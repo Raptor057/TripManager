@@ -73,6 +73,8 @@
     <Build Include="LocationOrigin.sql" />
     <Build Include="Passenger.sql" />
     <Build Include="TripEvent.sql" />
+    <Build Include="TripPassengers.sql" />
+    <Build Include="TripPayments.sql" />
     <Build Include="TripSchedule.sql" />
     <Build Include="Truck.sql" />
     <Build Include="UTCDateTime\GlobalSettings.sql" />

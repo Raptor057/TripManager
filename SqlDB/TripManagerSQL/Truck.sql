@@ -6,5 +6,8 @@ CREATE TABLE Truck (
     ManufactureYear INT NULL, -- Año
     Capacity INT NULL, -- Capacidad
     TruckState NVARCHAR(32) NULL, -- Ej: Available, Maintenance, InUse
-    Notes NVARCHAR(256) NULL
+    Notes NVARCHAR(256) NULL,
+    Photo VARBINARY(MAX) NULL,
+    [CreatedAt] DATETIME NOT NULL DEFAULT GETUTCDATE(),
+    [UpdatedAt] DATETIME NULL DEFAULT GETUTCDATE()
 );

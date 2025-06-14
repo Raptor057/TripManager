@@ -7,5 +7,7 @@ CREATE TABLE Passenger (
     Phone NVARCHAR(32) NOT NULL,
     DocumentNumber NVARCHAR(64) NULL, -- Pasaporte o INE
     DocumentPhoto VARBINARY(MAX) NULL, -- Pasaporte o INE
-    Notes NVARCHAR(MAX) NULL
+    Notes NVARCHAR(MAX) NULL,
+    [CreatedAt] DATETIME NOT NULL DEFAULT GETUTCDATE(),
+    [UpdatedAt] DATETIME NULL DEFAULT GETUTCDATE()
 );

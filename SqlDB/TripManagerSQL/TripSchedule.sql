@@ -9,5 +9,7 @@ CREATE TABLE TripSchedule (
     ActualDeparture DATETIME NULL,
     ActualArrival DATETIME NULL,
     TripScheduleState NVARCHAR(32) NULL, -- Ej: Scheduled, InTransit, Completed, Cancelled
-    Notes NVARCHAR(256) NULL
+    Notes NVARCHAR(256) NULL,
+    [CreatedAt] DATETIME NOT NULL DEFAULT GETUTCDATE(),
+    [UpdatedAt] DATETIME NULL DEFAULT GETUTCDATE()
 );
