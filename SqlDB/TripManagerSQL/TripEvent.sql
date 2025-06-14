@@ -1,5 +1,5 @@
 CREATE TABLE TripEvent (
-    TripEventId INT PRIMARY KEY IDENTITY,
+    TripEventId INT PRIMARY KEY IDENTITY(1,1),
     TripScheduleId INT NOT NULL REFERENCES TripSchedule(TripScheduleId),
     EventDateTime DATETIME NOT NULL DEFAULT GETDATE(),
     EventDescription NVARCHAR(512) NOT NULL,

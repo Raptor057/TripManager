@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripManager.Infra", "TripMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripManager.Web.Api", "TripManager.Web.Api\TripManager.Web.Api.csproj", "{EAA3F1EE-9526-41C2-95F0-6AB02174AF5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A8C48077-8D12-4ED8-8E42-4A82BA6A4BE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{43A677BE-EA34-22AE-E7EF-3A6298345737}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A677BE-EA34-22AE-E7EF-3A6298345737}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A677BE-EA34-22AE-E7EF-3A6298345737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C48077-8D12-4ED8-8E42-4A82BA6A4BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C48077-8D12-4ED8-8E42-4A82BA6A4BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C48077-8D12-4ED8-8E42-4A82BA6A4BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C48077-8D12-4ED8-8E42-4A82BA6A4BE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,5 @@
 CREATE TABLE TripSchedule (
-    TripScheduleId INT PRIMARY KEY IDENTITY,
+    TripScheduleId INT PRIMARY KEY IDENTITY(1,1),
     LocationOriginId INT NOT NULL REFERENCES LocationOrigin(LocationOriginId),
     LocationDestinationId INT NOT NULL REFERENCES LocationDestination(LocationDestinationId),
     TruckId INT NOT NULL REFERENCES Truck(TruckId),

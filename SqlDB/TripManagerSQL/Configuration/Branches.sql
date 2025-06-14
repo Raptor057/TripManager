@@ -7,7 +7,7 @@ CREATE TABLE [dbo].[Branches]
     [Email] NVARCHAR(100),
     [City] NVARCHAR(100),
     [State] NVARCHAR(100),
-    [Country] NVARCHAR(100) DEFAULT 'México',
+    [Country] NVARCHAR(100),
     [Timezone] NVARCHAR(50),
     [IsActive] BIT NOT NULL DEFAULT 1,
     [CreatedAt] DATETIME2 NOT NULL DEFAULT GETUTCDATE()
