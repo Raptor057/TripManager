@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripManager.Application", "TripManager.Application\TripManager.Application.csproj", "{2897C197-007E-4D69-B2B1-88D135A1FCD1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripManager.Infra", "TripManager.Infra\TripManager.Infra.csproj", "{4C336960-D4A0-420D-B8BB-A3388DE2934C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8C48077-8D12-4ED8-8E42-4A82BA6A4BE2} = {A8C48077-8D12-4ED8-8E42-4A82BA6A4BE2}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripManager.Web.Api", "TripManager.Web.Api\TripManager.Web.Api.csproj", "{EAA3F1EE-9526-41C2-95F0-6AB02174AF5E}"
 EndProject
